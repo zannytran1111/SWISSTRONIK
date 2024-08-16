@@ -1,0 +1,36 @@
+2f4261ee375621799d31499f6a46f9ae22737eab0dbe65b40b9b6c879e040882
+ec3e99e2cc59f65c94c82600f7137d5b75e5032b254ee23c1333a6a36904aa5e
+npx hardhat run deploy.js --network swisstronik
+npx hardhat run mint.js --network swisstronik
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+npx hardhat run transfer.js --network swisstronik
+
+
+1. deoploy
+Swisstronik contract deployed to 0x9b46D5bF79Ce6BF1bFb69e66bd7Eff31099EF582
+2.erc20
+-deployed to 0x3743c04B6315d56558e0b75d26925228Ddaa6D84
+-Transaction hash mint:  https://explorer-evm.testnet.swisstronik.com/tx/0xeb2bffdaa5224103c0c8e2f7630575266b63edd29e25cc3cd048300a82a89495
+-Transaction hash tranfer: https://explorer-evm.testnet.swisstronik.com/tx/0xb79b87555860fa8136173a3ccf8c8f91c5b15f68966cae236213f81e17fc2c21
+
+3.erc721
+-ERC721 deployed to: 0x8e408335879442010Da05A46eF7871287De4FDdB
+-Mint Transaction Hash:  https://explorer-evm.testnet.swisstronik.com/tx/0xc6d45cc9fa4941da0c0ad45d2e13cfc8597f70c1ceb45fd1b4112e5f4629d1fb
+4 perc20
+-PERC20 token deployed to: 0xd3EDA659D954545B1dB00Bf9a41f50197c44d347
+- Transaction hash mint:  https://explorer-evm.testnet.swisstronik.com/tx/0x06ea8b18528bc049736e216c9457eda6bd408c90959e1d6c1f686d76f1700e78
+-Transaction hash tràner:  https://explorer-evm.testnet.swisstronik.com/tx/0xd8db4af55f694ab71eb56ab2c2b535f45ccf309394896575937383f7d477b7b5
+
+5 mint nft
+NFT deployed to: 0x6AeaC75E69C8297EE5CAb60DAA299559C924ec2d
+Mint Transaction Hash:  https://explorer-evm.testnet.swisstronik.com/tx/0xea63cff681ce579b0fc290ceab8a28874415f79cf726178542e0994e03e1ca6b
+
+6
+Deploying Contracts with the account 0x93cb4a657F6410f8Db570Be099ebeD78a0FeDE39 ...
+SWTRImplementation deployed to 0x241257577cD4212e82c56596aae1Aa574Db6C172
+ProxyAdmin deployed to 0x823a05bB48e73C1B0c9621a460B26D4Ff7Ab6018
+SWTRProxy deployed to 0xF31300161E6c55Df2880c6d947dC32a986835a42
+
+Transaction hash:  https://explorer-evm.testnet.swisstronik.com/tx/0xf533fc7d665a12473823a91f1d36536a5a1ce0e05fea2b0a04aad205fc1be851
+
+
